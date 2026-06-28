@@ -1,16 +1,18 @@
+> 这是一个去推广链接的修改版
+
 # v2rayN
 
-### A GUI client for Windows, Linux and macOS. Support [Xray](https://github.com/XTLS/Xray-core) and [sing-box](https://github.com/SagerNet/sing-box) and [others](https://github.com/2dust/v2rayN/wiki/List-of-supported-cores)
+### A GUI client for Windows, Linux and macOS. Support [Xray](https://github.com/XTLS/Xray-core) and [sing-box](https://github.com/SagerNet/sing-box) and [others](https://github.com/91fabu/v2rayN-noAD/wiki/List-of-supported-cores)
 
 [![CodeFactor](https://www.codefactor.io/repository/github/2dust/v2rayn/badge)](https://www.codefactor.io/repository/github/2dust/v2rayn)
-[![Release](https://img.shields.io/github/v/release/2dust/v2rayN?logo=github&label=Release)](https://github.com/2dust/v2rayN/releases)
-[![Downloads](https://img.shields.io/github/downloads/2dust/v2rayN/latest/total?logo=github&label=Downloads)](https://github.com/2dust/v2rayN/releases)
+[![Release](https://img.shields.io/github/v/release/91fabu/v2rayN-noAD?logo=github&label=Release)](https://github.com/91fabu/v2rayN-noAD/releases)
+[![Downloads](https://img.shields.io/github/downloads/91fabu/v2rayN-noAD/latest/total?logo=github&label=Downloads)](https://github.com/91fabu/v2rayN-noAD/releases)
 [![Telegram](https://img.shields.io/badge/Telegram-Chat-26A5E4?logo=telegram)](https://t.me/v2rayn)
  
-[![Windows](https://img.shields.io/badge/Windows-supported-0078D6?logo=windows)](https://github.com/2dust/v2rayN) 
-[![Linux](https://img.shields.io/badge/Linux-supported-FCC624?logo=linux&logoColor=000)](https://github.com/2dust/v2rayN) 
-[![macOS](https://img.shields.io/badge/macOS-supported-000000?logo=apple)](https://github.com/2dust/v2rayN) 
-[![GPG Signed](https://img.shields.io/badge/GPG-signed-4B32C3?logo=gnuprivacyguard)](https://github.com/2dust/v2rayN)
+[![Windows](https://img.shields.io/badge/Windows-supported-0078D6?logo=windows)](https://github.com/91fabu/v2rayN-noAD) 
+[![Linux](https://img.shields.io/badge/Linux-supported-FCC624?logo=linux&logoColor=000)](https://github.com/91fabu/v2rayN-noAD) 
+[![macOS](https://img.shields.io/badge/macOS-supported-000000?logo=apple)](https://github.com/91fabu/v2rayN-noAD) 
+[![GPG Signed](https://img.shields.io/badge/GPG-signed-4B32C3?logo=gnuprivacyguard)](https://github.com/91fabu/v2rayN-noAD)
 
 
 ---
@@ -21,7 +23,7 @@ Download the latest release here:
 
 在这里下载最新版本：
 
-[https://github.com/2dust/v2rayN/releases](https://github.com/2dust/v2rayN/releases)
+[https://github.com/91fabu/v2rayN-noAD/releases](https://github.com/91fabu/v2rayN-noAD/releases)
 
 ---
 
@@ -31,7 +33,7 @@ Read the Wiki for usage guides and configuration details.
 
 请阅读 Wiki 获取使用说明和配置教程。
 
-[https://github.com/2dust/v2rayN/wiki](https://github.com/2dust/v2rayN/wiki)
+[https://github.com/91fabu/v2rayN-noAD/wiki](https://github.com/91fabu/v2rayN-noAD/wiki)
 
 ---
 
@@ -54,8 +56,7 @@ Release files are signed with GPG to verify authenticity and integrity, helping 
 ### Fingerprint / 公钥指纹
 
 ```text
-7694 5E9F 3E9A 168F 8070 F195 805D 661C
-134D FAF6 8903 C199 463C 31E5 AE90 3AE0
+19E510A17937965AED7AB23DCC29C3F55BC19F3D
 ```
 
 ---
