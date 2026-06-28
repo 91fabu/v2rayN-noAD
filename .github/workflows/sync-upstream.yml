@@ -241,6 +241,25 @@ jobs:
             print("⚠️ 部分文件处理失败，但继续执行")
         PYTHON_SCRIPT
 
+- name: Modify README
+      if: steps.check.outputs.skip != 'true'
+      run: |
+        if [ -f "README.md" ]; then
+          # 1. 替换所有的原仓库链接/名称
+          sed -i 's@2dust/v2rayN@91fabu/v2rayN-noAD@g' README.md
+          
+          # 2. 替换公钥指纹 (把第一行旧指纹替换为新指纹，并删除第二行旧指纹)
+          sed -i 's/7694 5E9F 3E9A 168F 8070 F195 805D 661C/19E510A17937965AED7AB23DCC29C3F55BC19F3D/g' README.md
+          sed -i '/134D FAF6 8903 C199 463C 31E5 AE90 3AE0/d' README.md
+          
+          # 3. 在第一行添加说明
+          echo -e "> 这是一个去推广链接的修改版\n\n$(cat README.md)" > README.md
+          
+          echo "✅ 已更新 README.md (添加提示、替换仓库名称、更新公钥指纹)"
+        else
+          echo "⚠️ 未找到 README.md，跳过修改"
+        fi
+
     - name: Commit and push
       if: steps.check.outputs.skip != 'true'
       run: |
